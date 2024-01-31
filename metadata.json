@@ -1,6 +1,6 @@
 {
   "token_endpoint_auth_method": "private_key_jwt",
-  "jwks_uri": "http://dockerhost:9876/client/oidc/jwks-client",
+  "jwks_uri": "https://raw.githubusercontent.com/piotr-theis/oidc-stub/main/jwks.json",
   "token_endpoint_auth_signing_alg": "ES256",
   "client_name": "Test RP"
 }
